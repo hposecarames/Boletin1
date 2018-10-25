@@ -13,7 +13,6 @@ public class Boletin1_1 {
         altura = Double.parseDouble(JOptionPane.showInputDialog("Introduce la altura: "));
         
         JOptionPane.showMessageDialog(null,"El area es: "+(base * altura)/2);
-        
     
     }
 }
