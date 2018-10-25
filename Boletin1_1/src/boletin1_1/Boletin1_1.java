@@ -7,15 +7,12 @@ public class Boletin1_1 {
 
     public static void main(String[] args) {
         
-        double base;
-        double altura;
-        double area;
+        double base, altura;
         
         base = Double.parseDouble(JOptionPane.showInputDialog("Introduce la base: "));
         altura = Double.parseDouble(JOptionPane.showInputDialog("Introduce la altura: "));
-        area = (base * altura)/2;
         
-        JOptionPane.showMessageDialog(null,"El area es: "+area);
+        JOptionPane.showMessageDialog(null,"El area es: "+(base * altura)/2);
         
     
     }
